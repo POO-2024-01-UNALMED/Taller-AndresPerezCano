@@ -15,8 +15,8 @@ public class Libro extends Escrito{
 		this.interpretacion = interpretacion;
 	}
 	
-	public int palabrasTotales(int palabrasPaginas) {
-		int palabrasTotales = palabrasPaginas * 2;
+	public int palabrasTotales(int parametro) {
+		int palabrasTotales = getPaginas() * parametro * 2;
 		return palabrasTotales;
 	}
 	
